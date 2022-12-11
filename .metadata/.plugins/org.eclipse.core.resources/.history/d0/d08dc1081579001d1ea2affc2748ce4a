@@ -1,0 +1,27 @@
+package wordlength;
+
+
+import java.util.StringTokenizer;
+
+import org.apache.hadoop.io.IntWritable;
+import org.apache.hadoop.io.LongWritable;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapred.OutputCollector;
+import org.apache.hadoop.mapreduce.Mapper;
+
+public class Map extends Mapper <LongWritable,Text,Text, IntWritable >{
+
+	private Text word  = new Text();
+	public void map(LongWritable key, Text value, OutputCollector<Text,IntWritable> output, Context context) {
+		
+	String line = value.toString();
+	StringTokenizer itr = new StringTokenizer(line);
+	
+	while(itr.hasMoreTokens()) {
+		word.set(itr.nextToken());
+		output.collect(word, one);
+	}
+	
+	}
+
+}
