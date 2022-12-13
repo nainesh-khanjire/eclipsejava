@@ -1,2 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.apache.hadoop.fs.shell.Display.Text"/>
+    <fullyQualifiedTypeName name="org.apache.hadoop.mapred.OutputCollector"/>
+    <fullyQualifiedTypeName name="wordlength.WordLength"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="org.apache.hadoop.io.LongWritable"/>
+    <fullyQualifiedTypeName name="java.lang.Readable"/>
+    <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Mapper"/>
+    <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Partitioner"/>
+    <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Reducer"/>
+    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="org.apache.hadoop.conf.Configuration"/>
+    <fullyQualifiedTypeName name="org.apache.hadoop.io.Text"/>
+    <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.lib.input.FileInputFormat"/>
+    <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.lib.output.FileOutputFormat"/>
+    <fullyQualifiedTypeName name="org.apache.hadoop.mapreduce.Job"/>
+    <fullyQualifiedTypeName name="org.apache.hadoop.fs.Path"/>
+    <fullyQualifiedTypeName name="org.apache.hadoop.io.IntWritable"/>
+</qualifiedTypeNameHistroy>
